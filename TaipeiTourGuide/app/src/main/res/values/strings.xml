@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Taipei Tour Guide</string>
+
+    <string name="category_sightseeing">Sightseeing</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_nightmarkets">Night Markets</string>
+    <string name="category_unmentioned">Unmentioned</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haqua.taipeitourguide.MainActivity">
+
+    <TextView
+        android:id="@+id/sightseeing"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="#ff8e29"
+        android:paddingLeft="16dp"
+        android:text="Sight-Seeing" />
+
+    <TextView
+        android:id="@+id/museums"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="#40e0d0"
+        android:paddingLeft="16dp"
+        android:text="Museums" />
+
+    <TextView
+        android:id="@+id/nightmarkets"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="#2188CD"
+        android:paddingLeft="16dp"
+        android:text="Night Markets" />
+
+    <TextView
+        android:id="@+id/unmentioned"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="#195953"
+        android:paddingLeft="16dp"
+        android:text="Unmentioned Places" />
+
+
+</LinearLayout>
